@@ -2,7 +2,7 @@ const Author = require('../models/author');
 
 // Display list of all Authors.
 exports.author_list = function (req, res) {
-    res.send('Prasad GOlla Durga-AUTHOR');
+    res.send('Prasad Golla Durga-AUTHOR');
 };
 
 // Display detail page for a specific Author.
