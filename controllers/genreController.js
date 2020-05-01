@@ -189,7 +189,6 @@ exports.genre_update_post = [
     // Create a genre object with escaped and trimmed data (and the old id!)
         var genre = new Genre(
           {
-              
           name: req.body.name,
           _id: req.params.id
           }
